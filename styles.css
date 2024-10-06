@@ -9,3 +9,37 @@ h1 {
   text-align: center;
   margin-top: 50px;
 }
+
+
+/* navbar styling start */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    background-color: #fff;
+    align-items: center;
+}
+.nav-logo{
+    width: 50px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar ul li{
+    padding: 0px 10px;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: #333;
+}
+.signup-btn{
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* navbar styling end */
